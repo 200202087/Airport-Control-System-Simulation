@@ -10,7 +10,6 @@ This project simulates an airport control system that manages the takeoff and la
 - [Usage](#usage)
 - [File Descriptions](#file-descriptions)
 - [Function Descriptions](#function-descriptions)
-- [Sources](#sources)
 
 ## Introduction
 
@@ -33,15 +32,11 @@ To install and run this project, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/200202087/airport-control-system-simulation.git
+    git clone https://github.com/200202087/Airport-Control-System-Simulation.git
     ```
 2. Navigate to the project directory:
     ```sh
-    cd airport-control-system-simulation
-    ```
-3. Compile the project:
-    ```sh
-    gcc -o airport_control main.c
+    cd Airport-Control-System-Simulation
     ```
 
 ## Usage
@@ -59,9 +54,9 @@ To use the airport control system simulation, follow these steps:
       2 302 7
       ```
 
-2. Run the compiled program:
+2. Run the executable:
     ```sh
-    ./airport_control
+    ./main.exe
     ```
 
 3. The results will be printed to the console and written to an `output.txt` file.
@@ -71,6 +66,10 @@ To use the airport control system simulation, follow these steps:
 - `main.c`: The main source code file containing all the functions and logic for the simulation.
 - `input.txt`: Input file containing the flight data (to be created by the user).
 - `output.txt`: Output file where the results of the simulation are written.
+- `main.exe`: The compiled executable of the project.
+- `main.o`: The object file generated during compilation.
+- `bekleme.txt`: An additional file used in the project.
+- `AirportSystemRep.pdf`: A PDF report detailing the project.
 
 ## Function Descriptions
 
@@ -89,8 +88,3 @@ Writes the final schedule and delay information to `output.txt` and prints it to
 ### `int main()`
 The main function that initializes the program, reads the input data, processes it, and outputs the results.
 
-## Sources
-
-You can review the project code [here](main.c).
-
-You can review the project report [here](AirportSystemRep.pdf).
