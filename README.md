@@ -88,3 +88,9 @@ Writes the final schedule and delay information to `output.txt` and prints it to
 ### `int main()`
 The main function that initializes the program, reads the input data, processes it, and outputs the results.
 
+# Sources
+
+You can review the project code [here](main.c).
+
+You can review the project report [here](AirportSystemRep.pdf).
+
